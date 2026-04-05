@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10033</projectId>
+    <projectKey>MYPMC</projectKey>
+    <exportDate>2026-04-05 15:07:33 UTC</exportDate>
+    <folders>
+        <folder fullPath="Login" index="0"/>
+    </folders>
+    <testCases>
+        <testCase id="316678853" key="MYPMC-T1">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>marcio jesuino</createdBy>
+            <createdOn>2026-04-02 01:47:32 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Login]]></folder>
+            <issues/>
+            <labels>
+                <label><![CDATA[Sprint1]]></label>
+            </labels>
+            <name><![CDATA[Cliente sem cadastro deseja criar uma conta]]></name>
+            <objective><![CDATA[Verificar funcionalidade de login]]></objective>
+            <owner>613f62f21370f00069035cb3</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[]]></details>
+            </testScript>
+        </testCase>
+        <testCase id="316678987" key="MYPMC-T2" paramType="PARAMETER">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>marcio jesuino</createdBy>
+            <createdOn>2026-04-02 01:50:05 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Login]]></folder>
+            <issues/>
+            <labels>
+                <label><![CDATA[Sprint1]]></label>
+            </labels>
+            <name><![CDATA[Cliente sem cadastro tenta fazer login]]></name>
+            <objective><![CDATA[testar de o usuario sem login consegue entrar sem ter sido cadastrado]]></objective>
+            <owner>613f62f21370f00069035cb3</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Acessar URL x]]></description>
+                        <expectedResult><![CDATA[O usuario deve visualizar a tela de login]]></expectedResult>
+                        <testData><![CDATA[<var>Servidor Test</var>&nbsp;]]></testData>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[O usuario digita o usuário no campo usuario]]></description>
+                        <expectedResult><![CDATA[aparecer o usuario escrito no campo usuario]]></expectedResult>
+                        <testData><![CDATA[<var>Mariana</var>&nbsp;]]></testData>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>
